@@ -90,6 +90,9 @@ T3 must wait till the commit of T2 before it reads x4
 (because of locking), so sees 44.
 T1 reads x2=22 at site1
 
+Test 20
+-----
+T4 should not read 101 from invisible servers
 
 
 

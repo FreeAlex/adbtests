@@ -33,6 +33,14 @@ Test 5
 -----
 T1 fails again here because it wrote to a site that failed. T2 ok.
 
+Test 6
+-----
+T1 ok. T2 ok. T2 reads from a recovering site, but odd variables only at that site
+
+Test 7
+-----
+T2 should read the initial version of x3 based on multiversion read consistency.
+
 
 
 

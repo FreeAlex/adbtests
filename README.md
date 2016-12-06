@@ -17,10 +17,11 @@ multiversion read protocol.
 
 ### Output of dump
 
+```
 x1: 101 at site 2
 x2: 102 at all sites
 All other variables have their initial values.
-
+```
 
 
 

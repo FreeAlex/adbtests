@@ -1,4 +1,10 @@
-Test cases for advanced database system
+# Test cases for ADB
+
+**The first 16 test cases (1-16) come from the [webpage](http://cs.nyu.edu/courses/fall16/CSCI-GA.2434-001/projectsampletests.deadlockdetection) owned by [Professor Dennis Shasha](http://cs.nyu.edu/cs/faculty/shasha/), therefore, copyright owned by Denis Shasha. Please contact him if someone want to copy those test cases.**
+
+However, we encourage anyone to contribute.
+
+Please help others as well as yourself.
 
 Test 1
 -----

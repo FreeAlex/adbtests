@@ -41,6 +41,33 @@ Test 7
 -----
 T2 should read the initial version of x3 based on multiversion read consistency.
 
+Test 8
+-----
+T2 still reads the initial value of x3
+
+T3 still reads the value of x3 written by T1
+
+Test 9
+-----
+T1, T2, T3 ok. T3 waits and then comlete after T2 commits 
+
+Test 10
+-----
+T3 should wait and should not abort
+
+Test 11
+-----
+All should commit
+
+
+
+
+
+
+
+
+
+
 
 
 

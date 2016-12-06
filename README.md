@@ -59,6 +59,33 @@ Test 11
 -----
 All should commit
 
+Test 12
+-----
+both commit
+
+Test 13
+-----
+T1 and T2 wait
+
+Test 14
+-----
+They all commits
+
+
+Test 15
+-----
+T1 will abort because x4 is on site 2 and  so site 2 will lose its locks in the fail event.
+So T1 will abort. T2 will be fine as will the others.
+
+
+Test 16
+-----
+T3 must wait till the commit of T2 before it reads x4 
+(because of locking), so sees 44.
+T1 reads x2=22 at site1
+
+
+
 
 
 

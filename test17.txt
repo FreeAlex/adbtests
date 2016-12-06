@@ -1,0 +1,4 @@
+begin(T1);begin(T2);begin(T3)
+W(T2, x1, 102);W(T1, x1, 101);W(T3, x1, 103)
+end(T2);end(T3);end(T1)
+dump()
